@@ -408,11 +408,14 @@
     text-align: center;
     line-height: 1.3rem;
     margin-top: 1.3rem;
-    /* background-color: #fff; */
-    transition: background-color 1s;
+    background-color: #fff;
+    /* background-color: red; */
+    /* opacity: 0; */
+    transition: opacity 0.5s;
 }
-.fenlei_left1:active {
-	background-color:#fff;
+.fenlei_left:hover {
+	background-color:red;
+	opacity: 1;
 }
 .fenlei_left2{
 	width: 2.53rem;
