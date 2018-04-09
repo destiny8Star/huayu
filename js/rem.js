@@ -1,6 +1,6 @@
 window.onload=function(){
     resize(1080,"x");
-}
+};
 function resize(originSize,type){
     // originSize = 750;
     // type = x
@@ -19,5 +19,5 @@ resize(1080,"x");
 
 window.onresize = function(){
    resize(1080,"x"); 
-}
+};
 
